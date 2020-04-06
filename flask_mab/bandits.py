@@ -1,6 +1,8 @@
 from random import random, choice, uniform, betavariate
 from math import log, exp, expm1
 
+#daghan is trying to trigger a GH action
+
 class Bandit(object):
     """The primary bandit interface.  Don't use this unless you really
     want uniform random arm selection (which defeats the whole purpose, really)
